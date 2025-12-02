@@ -14,4 +14,4 @@ const messages = [
 ];
 const indexRouter = Router()
 
-export default { indexRouter, messages }
+export { indexRouter, messages }
