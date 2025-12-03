@@ -1,4 +1,5 @@
 import { Router } from 'express'
+import { indexGetMethod, indexPostMethod } from '../controllers/indexController.js'
 
 const messages = [
   {
@@ -12,6 +13,11 @@ const messages = [
     added: new Date()
   }
 ];
+
 const indexRouter = Router()
+
+indexRouter.get("/", indexGetMethod);
+
+indexRouter.post("/newMessages", indexPostMethod);
 
 export { indexRouter, messages }

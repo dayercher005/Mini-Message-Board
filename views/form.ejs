@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Mini-Message Board</title>
+  </head>
+  <body>
+
+    <form method="POST" action="/newMessages">
+
+        <h1><%= title %></h1>
+
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <div>
+            <label for="messageText">Message: </label>
+            <input type="text" name="messageText" id="messageText" required>
+        </div>
+
+        <input type="submit">
+    </form>
+
+  </body>
+</html>
