@@ -1,0 +1,23 @@
+:root{
+    --white-color: hsl(0, 100%, 100%);
+    --links-color: hsl(217, 98%, 59%);
+    --submit-color: hsl(145, 85%, 56%);
+}
+
+.buttonStyling{
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color)
+}
+
+.allMessagesButton{
+    background-color: var(--links-color);
+}
+
+.sendMessagesButton{
+    background-color: var(--links-color);
+}
+
+.submitButton{
+    background-color: var(--submit-color);
+}
