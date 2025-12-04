@@ -22,6 +22,10 @@ node app.js
 ## Deployment 
 
 Used <a href="https://render.com/">Render</a> for Web Service Deployment
+
+---
+
+## Live Preview
 Live Preview URL: https://mini-message-board-2x6c.onrender.com
 
 *Part of The Odin Project's [NodeJS Course]
